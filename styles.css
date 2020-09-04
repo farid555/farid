@@ -1,18 +1,15 @@
-* {
-  box-sizing: border-box;
+
+.paralink{
+  color:red
+
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.logo{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: down;
+    left: 650px;
 }
 
 
@@ -26,18 +23,33 @@
 h4 
 {
   margin-top: 1em;
-  margin-right: 2em;
+  margin-right: em;
   padding-top: 1em;
-  color: brown; 
-
+  font-family:  Comic Sans MS;
+  font-size: 18px;
+  color:	floralwhite;
+  background-size: auto;
+  background: darkslategray	;
+  padding: 4px 20px 4px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 
 h3 {
-  margin-top: .5em;
+  
   padding-top: 1em;
-  color : darkcyan;
+  color: white;
   font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 26px;
+  text-align: justify;
+  background: #df5e54;
+  display: inline;
+  padding: 10px 10px;
+  line-height: 4em;
 }
 
 p {
@@ -45,6 +57,7 @@ p {
   margin: 0 auto;
   max-width: 50em;
   padding: 0em 1em;
+  color: black;
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 body {
@@ -52,35 +65,12 @@ body {
   padding: 1em 1em;
   margin: 0 auto;
   max-width: 50em;
-  color: rgb(16, 190, 243);
+  color: black;
   font-family: 'Helvetica', 'Arial', sans-serif;
 
 }
 
 
-.violet {
-color:  darkviolet;
-}
-.violet {
-color:  darkviolet;
-}
-
-.yellow {
-color:   orange;
-}
-
-.yell {
-color:   orange;
-}
-.yell {
-color:   orange;
-}
-.yell {
-color:   orange;
-}
-.red {
-color:   red;
-}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -103,6 +93,67 @@ code
   position: static;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
+  background-size: auto;
+  background-color: aquamarine;
+  padding: 0em 1em;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.para1{
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 0em 1em;
+  color:blueviolet;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.para2{
+
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 0em 1em;
+  color:indigo;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+/* html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.bottomAnim {
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2851A6 url("http://i.stack.imgur.com/spmUM.gif") left repeat-x;
+  background-size: auto 65%;
+  background-position: bottom;
+  z-index: 1000;
+}
+*/
 
