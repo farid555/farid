@@ -1,6 +1,6 @@
 
 .paralink{
-  color:red
+  color:#E74C3C;
 
 }
 
@@ -27,9 +27,9 @@ h4
   padding-top: 1em;
   font-family:  Comic Sans MS;
   font-size: 18px;
-  color:	floralwhite;
+  color:	#F4D03F;
   background-size: auto;
-  background: darkslategray	;
+  background: #5D6D7E ;
   padding: 4px 20px 4px 20px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -44,7 +44,7 @@ h3 {
   padding-top: 1em;
   color: white;
   font-family: 'Helvetica', 'Arial', sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   text-align: justify;
   background: #df5e54;
   display: inline;
@@ -116,10 +116,11 @@ code
 
 .para1{
   text-align: justify;
+  font-size: 25px;
   margin: 0 auto;
   max-width: 50em;
   padding: 0em 1em;
-  color:blueviolet;
+  color:#34495E;
   font-family: 'Helvetica', 'Arial', sans-serif;
 
 }
